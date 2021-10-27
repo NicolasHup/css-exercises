@@ -26,3 +26,64 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+}
+
+.card {
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+.cards {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header, .footer {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0 16px;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.sidebar {
+  
+  padding: 16px;
+  width: 300px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  
+}
